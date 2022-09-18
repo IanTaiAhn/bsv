@@ -4,10 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BSV</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <h1 class="text-3xl text-center">Hello World</h1>
+<body class=" font-mono">
+    <!-- Navbar -->
+    <section class="bg-gradient-to-b from-purple-300 to-purple-500">
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+            <!-- <img src="img/logo.svg" alt="" /> Perhaps I'll find a logo, or make one --> 
+            <h1 class="text-bold text-5xl text-white py-2 px-8 rounded-full">BSV</h1>
+          </div>
+          <!-- Menu Items -->
+          <div id="menuItems" class="hidden space-x-6 text-white text-lg md:flex">
+            <a href="#" class="hover:text-purple-300">About Us</a>
+            <a href="#" class="hover:text-purple-300">Gallery</a>
+            <a href="#" class="hover:text-purple-300">Get Involved</a>
+            <a href="#" class="hover:text-purple-300">Community</a>
+            <a href="#" class="hover:text-purple-300">Donate</a>
+          </div>
+  
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+        </div>
+    </nav>
+    </section>
+    <!-- Main info regarding their events. -->
+    <section class="bg-gradient-to-b from-purple-500 to-purple-300">
+            <h2 class="text-bold text-4xl text-center text-white py-6 mx-auto  max-w-sm md:max-w-3xl md:text-7xl">
+                Welcome to the Burning Sissy Valley
+            </h2>
+    </section>
+    <!-- DELETE H-SCREEN! THE DEVIL MAN. JUST WANNA SEE THE SITE IN FULL PRUPLE GLORY -->
+    <section class="h-screen bg-gradient-to-b from-purple-300 to-purple-500">
+        <h2 class="text-bold text-4xl text-center text-white py-6 mx-auto  max-w-sm md:max-w-3xl md:text-7xl">
+            
+        </h2>
+</section>
 </body>
 </html>
