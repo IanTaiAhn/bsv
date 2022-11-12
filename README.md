@@ -2,4 +2,8 @@
 This website is for the Burning Sissy Valley, a QPOC group located in Utah.
 Currently under construction.
 
+Deprecated project, refer to this url instead
+
+https://iantaiahn.github.io/bsv3/
+
 Here is a link to the website: https://iantaiahn.github.io/bsv/
